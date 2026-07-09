@@ -1,0 +1,24 @@
+# EMOD model binary and schema (provided by emodpy-malaria; see README)
+download/
+
+# idmtools / EMOD run artifacts
+COMPS_ID
+*.id.bak
+.vsc-history/
+Assets/
+output/
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Editors / OS
+.idea/
+.vscode/
+.claude/
+.DS_Store

@@ -1,0 +1,15 @@
+# Data handling and plotting (PyPI)
+numpy
+pandas
+matplotlib
+
+# IDM modeling stack. These are hosted on the IDM package index, not PyPI:
+#   pip install --index-url https://packages.idmod.org/api/pypi/pypi-production/simple <package>
+# emodpy-malaria pulls in idmtools, emodpy, and emod-api, and ships the EMOD
+# (Eradication) binary and schema used by these scripts.
+idmtools
+idmtools-platform-comps
+idmtools-platform-slurm
+emod-api
+emodpy
+emodpy-malaria
